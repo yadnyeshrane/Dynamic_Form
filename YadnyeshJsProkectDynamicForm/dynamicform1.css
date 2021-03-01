@@ -1,0 +1,174 @@
+	body{
+		background-color: #483D8B;
+	}
+	.container-box
+	{
+		padding: 8px;
+		width: 740px;
+		background: yellow;
+		border-radius: 5px;
+	}
+	.container
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.text-center
+	{
+		text-align: center;
+		color: white;
+		margin-bottom: 30px;
+		
+	}
+	#opt{
+		width: 110px;
+		font-size: 1rem;
+		height: 30px;
+	}
+	#addbtn-1
+	{
+padding: 6px 10px;
+border-radius: 30px;
+outline: none;
+font-size: 1rem;
+position: relative;
+margin-left: 20px;
+color: #483D8B;
+font-weight:bold;
+border: none;
+	}
+#addbtn-1:hover
+{
+	background-color: #483D8B;
+	color: white;
+	border: 1px solid white;
+}	
+	.input-1btn
+	{
+		padding: 6px 10px;
+		border-radius: 30px;
+		color: #483D8B;
+font-weight:bold;
+	}
+.input-1btn:hover
+{
+	background-color: #483D8B;
+	color: white;
+	border: 1px solid white;
+}	
+
+	.user-input,.user-radio,.user-select
+	{
+		display: flex;
+		margin-bottom: 20px;
+
+	}
+	.inputs-1,.input-1btn
+	{
+		visibility: visible;
+		margin-right: 20px;
+	}
+	#label
+	{
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+	.inputs-1,.inputs-2,.collectuserinp
+	{
+		border-radius: 5px;
+	}
+	.radiocls
+	{
+	border-radius: 20px;
+	margin-left: 5px;	
+	padding: 5px 10px;
+	}
+	.inputs-2
+	{
+		display: block;
+	}
+	#close
+	{
+   
+   position: fixed;
+    font-size: 30px;
+    padding: 0 7px;
+    left: 1350px;
+    background-color: #F0FFF0;
+    border-radius: 50%;
+    cursor: pointer;
+
+	}
+	#input-selc
+	{
+		padding: 6px 10px;
+		border-radius: 20px;
+		margin-left: 6px;
+	}
+	.userselectsec
+	{
+		width: 100px;
+		margin-left: 10px;
+	}
+	.submit
+	{
+		text-align: center;
+	}
+	#submitval1
+	{
+		padding: 10px 10px;
+		border-radius: 10px;
+		border: none;
+		font-weight: bold;
+
+	}
+	.label1
+	{
+		visibility: hidden;
+		margin-top: 5px;
+		margin-right: 3px;
+	}
+	.radios-left
+	{
+		
+		position: relative;
+		top: 0;
+	}
+	.flex
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	#d3{
+padding: 10px;
+background-color: #BBBCDB;	
+position: absolute;
+width: 600px;
+left: 0;
+
+	
+}
+.final{
+	
+	background-color: #BBBCDB;
+	display: none;
+
+}
+#label1s
+{
+	margin-left: 100px;
+}
+#label2s
+{
+	margin-left: 200px;
+}
+.margin-top-bottom
+{
+padding-top: 15px;
+padding-bottom: 10px;
+}
+.collectinps
+{
+	border-radius: 5px;
+}
